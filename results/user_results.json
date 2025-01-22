@@ -1,0 +1,194 @@
+[
+    {
+        "diagnosis": "Red-Green Color Deficiency Detected",
+        "test_result": "20.0% (3/15)",
+        "results": [
+            {
+                "plate_no": 1,
+                "user_answer": "12",
+                "correct_answer": "12",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 2,
+                "user_answer": "8",
+                "correct_answer": "8",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 3,
+                "user_answer": "70",
+                "correct_answer": "29",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 4,
+                "user_answer": "6",
+                "correct_answer": "5",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 5,
+                "user_answer": "8",
+                "correct_answer": "3",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 6,
+                "user_answer": "17",
+                "correct_answer": "15",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 7,
+                "user_answer": "71",
+                "correct_answer": "74",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 8,
+                "user_answer": "Nothing",
+                "correct_answer": "6",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 9,
+                "user_answer": "46",
+                "correct_answer": "45",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 10,
+                "user_answer": "5",
+                "correct_answer": "5",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 11,
+                "user_answer": "1",
+                "correct_answer": "7",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 12,
+                "user_answer": "18",
+                "correct_answer": "16",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 13,
+                "user_answer": "13",
+                "correct_answer": "73",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 14,
+                "user_answer": "2",
+                "correct_answer": "26",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 15,
+                "user_answer": "4",
+                "correct_answer": "42",
+                "result_type": "Red-Green Deficiency"
+            }
+        ]
+    },
+    {
+        "diagnosis": "Red-Green Color Deficiency Detected",
+        "test_result": "20.0% (3/15)",
+        "results": [
+            {
+                "plate_no": 1,
+                "user_answer": "12",
+                "correct_answer": "12",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 2,
+                "user_answer": "8",
+                "correct_answer": "8",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 3,
+                "user_answer": "70",
+                "correct_answer": "29",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 4,
+                "user_answer": "6",
+                "correct_answer": "5",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 5,
+                "user_answer": "Nothing",
+                "correct_answer": "3",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 6,
+                "user_answer": "17",
+                "correct_answer": "15",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 7,
+                "user_answer": "74",
+                "correct_answer": "74",
+                "result_type": "Normal"
+            },
+            {
+                "plate_no": 8,
+                "user_answer": "8",
+                "correct_answer": "6",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 9,
+                "user_answer": "46",
+                "correct_answer": "45",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 10,
+                "user_answer": "8",
+                "correct_answer": "5",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 11,
+                "user_answer": "1",
+                "correct_answer": "7",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 12,
+                "user_answer": "18",
+                "correct_answer": "16",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 13,
+                "user_answer": "13",
+                "correct_answer": "73",
+                "result_type": "Incorrect/No Answer"
+            },
+            {
+                "plate_no": 14,
+                "user_answer": "2",
+                "correct_answer": "26",
+                "result_type": "Red-Green Deficiency"
+            },
+            {
+                "plate_no": 15,
+                "user_answer": "4",
+                "correct_answer": "42",
+                "result_type": "Red-Green Deficiency"
+            }
+        ]
+    }
+]

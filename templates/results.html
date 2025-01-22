@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Results</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Test Results</h1>
+        <p>Diagnosis: {{ diagnosis }}</p>
+        <p>Test Result: {{ correct_percentage }}%</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Plate No.</th>
+                    <th>Your Answer</th>
+                    <th>Correct Answer</th>
+                    <th>Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in results %}
+                <tr>
+                    <td>{{ result.plate_no }}</td>
+                    <td>{{ result.user_answer }}</td>
+                    <td>{{ result.correct_answer }}</td>
+                    <td>{{ result.result_type }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        <button onclick="location.href='{{ url_for('index') }}'">Restart Test</button>
+    </div>
+</body>
+</html>
+

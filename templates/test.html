@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plate {{ plate_id }}</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Plate {{ plate_id }}</h1>
+        <img src="{{ url_for('static', filename='images/' + plate.image) }}" alt="Plate {{ plate_id }}">
+        <form method="POST">
+            {% for option in plate.options %}
+            <label>
+                <input type="radio" name="answer" value="{{ option }}"> {{ option }}
+            </label><br>
+            {% endfor %}
+            <button type="submit">Next</button>
+        </form>
+    </div>
+</body>
+</html>
+

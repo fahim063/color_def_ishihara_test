@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take the Test</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Ishihara Color Blind Test</h1>
+		<form id="testForm">
+		    {% for plate in plates %}
+		    <div class="test-plate">
+			<!-- Display the image -->
+			<img src="{{ url_for('static', filename='images/' + plate.image) }}" alt="Plate {{ plate.id }}" class="ishihara-plate">
+
+			<!-- Group radio buttons uniquely using the plate.id -->
+			<div class="options">
+			    {% for option in plate.options %}
+			    <label>
+				<input type="radio" name="plate{{ plate.id }}" value="{{ option }}"> {{ option }}
+			    </label>
+			    {% endfor %}
+			</div>
+		    </div>
+		    {% endfor %}
+		    <button type="button" onclick="submitTest()">Submit</button>
+		</form>
+
+    </div>
+</body>
+</html>
+
